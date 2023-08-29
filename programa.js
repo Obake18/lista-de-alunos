@@ -7,6 +7,18 @@ let aluno6 = new Aluno ('foto6.jpg', "Felipe", "25","Florença")
 let aluno7 = new Aluno ('foto7.jpg', "Grace","22", "Honolulu")
 let aluno8 = new Aluno ('foto8.jpg', "Henry", "17","Instanbul")
 let aluno9 = new Aluno ('foto9.jpg', "Isabella", "27", "Kyoto")
-let aluno10 = new Aluno ('foto10', "Jack", "28", "Lisboa")
+let aluno10 = new Aluno ('foto10', "Jack", "28", "London")
 
-let 
+let listaDeAluno = []
+
+listaDeAluno.push(aluno1)
+listaDeAluno.push(aluno2)
+listaDeAluno.push(aluno3)
+listaDeAluno.push(aluno4)
+listaDeAluno.push(aluno5)
+listaDeAluno.push(aluno6)
+listaDeAluno.push(aluno7)
+listaDeAluno.push(aluno8)
+listaDeAluno.push(aluno9)
+listaDeAluno.push(aluno10)
+   
