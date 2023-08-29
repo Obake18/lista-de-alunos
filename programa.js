@@ -22,3 +22,9 @@ listaDeAluno.push(aluno8);
 listaDeAluno.push(aluno9);
 listaDeAluno.push(aluno10);
    
+
+for (let i = 0; i < listaDeAluno.length; i++){
+    document.write(
+        <div>class card</div>
+    )
+}
