@@ -24,7 +24,13 @@ listaDeAluno.push(aluno10);
    
 
 for (let i = 0; i < listaDeAluno.length; i++){
-    document.write(
-        <div>class card</div>
-    )
+    document.write(`
+    <div class = 'card' </div>
+    <img class = 'foto' src =' img/${listaDeAluno[i].foto}/>
+    <div class = 'nome' ><h1>${listaDeAluno[i].nome}/>
+    
+
+
+    
+    `)   
 }
