@@ -14,7 +14,7 @@ let listaDeAluno = []
 listaDeAluno.push(aluno1)
 listaDeAluno.push(aluno2)
 listaDeAluno.push(aluno3)
-listaDeAluno.push(aluno4)
+listaDeAluno.push(aluno)
 listaDeAluno.push(aluno5)
 listaDeAluno.push(aluno6)
 listaDeAluno.push(aluno7)
