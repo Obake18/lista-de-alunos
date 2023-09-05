@@ -1,27 +1,17 @@
 class Aluno{
-    constructor(foto, nome, idade, cidade){
+    constructor(foto,primeiroNome, segundoNome, idade, cidade)
+    {
         this.foto = foto;
-        this.nome = nome;
+        this.primeiroNome = primeiroNome
+        this.segundoNome = segundoNome
         this.idade = idade;
         this.cidade = cidade;
+
+        getNome(){
+            return `${this.primeiroNome} ${this.segundoNome}`;
+    
+    }
+    
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 }
-
-
