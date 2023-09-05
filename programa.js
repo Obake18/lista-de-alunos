@@ -1,4 +1,4 @@
-let aluno1 = new Aluno('foto1.jpg', "Sujiro", " Kimimame" , new Date ("1970-05-10"), "Yokohama");
+let aluno1 = new Aluno('foto1.jpg', "Sujiro", " Kimimame", new Date("1970-05-10"), "Yokohama");
 let aluno2 = new Aluno('foto2.jpg', "Kabe Sadul", " Meup'Al", "21", "Cairo");
 let aluno3 = new Aluno('foto3.jpg', "Jaq-omi", " Sua-MAin", "18", "Arábia Saudita");
 let aluno4 = new Aluno('foto4.jpg', "Telin", " Habei", "24", "Qatar");
@@ -29,7 +29,7 @@ for (let i = 0; i < listaDeAluno.length; i++) {
         <div class="nome"><h1>${listaDeAluno[i].primeiroNome}${listaDeAluno[i].segundoNome}</h1></div>
         
 
-        <div><h3>${listaDeAluno[i].idade}</h3></div>
+        <div><h3>${listaDeAluno[i].getIdade()}</h3></div>
         <div><h3>${listaDeAluno[i].cidade}</h3></div>
     </div>
     `);

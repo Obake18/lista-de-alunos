@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-wrap: wrap;
-    background-color: #191919;
+    background-color: hsl(0, 0%, 10%);
     justify-content: center; /* Centraliza os cartões horizontalmente */
     align-items: center; /* Centraliza os cartões verticalmente */
     min-height: 100vh; /* Garante que a página ocupe pelo menos a altura da tela */
