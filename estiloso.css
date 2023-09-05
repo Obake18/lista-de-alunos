@@ -11,6 +11,7 @@ body {
     margin: 16px;
     padding: 20px;
     border: solid 3px #393939;
+    border-radius: 9px;
     background-color: #0d0d0d; /* Cor de fundo escura */
     font-family: 'Segoe UI', sans-serif;
     color: #a6a6a6;
