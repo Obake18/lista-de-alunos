@@ -1,10 +1,10 @@
-let aluno1 = new Aluno('foto1.jpg', "Sujiro", " Kimimame" , "19", "Yokohama");
+let aluno1 = new Aluno('foto1.jpg', "Sujiro", " Kimimame" , new Date ("1970-05-10"), "Yokohama");
 let aluno2 = new Aluno('foto2.jpg', "Kabe Sadul", " Meup'Al", "21", "Cairo");
 let aluno3 = new Aluno('foto3.jpg', "Jaq-omi", " Sua-MAin", "18", "Arábia Saudita");
 let aluno4 = new Aluno('foto4.jpg', "Telin", " Habei", "24", "Qatar");
 let aluno5 = new Aluno('foto5.jpg', "Seoku", " Miyadora", "20", "Kyoto");
 let aluno6 = new Aluno('foto6.jpg', "Tomas", " Turbano", "25", "Maceió");
-let aluno7 = new Aluno('foto7.jpg', "Peneirinha", "Da Silva", "22", "Maceió");
+let aluno7 = new Aluno('foto7.jpg', "Peneirinha", " Da Silva", "22", "Maceió");
 let aluno8 = new Aluno('foto8.jpg', "H.", " Romeu Pinto", "17", "Rio Largo");
 let aluno9 = new Aluno('foto9.jpg', "Ahom", " Baku", "27", "Kyoto");
 let aluno10 = new Aluno('foto10.jpg', "Jalin", " Habei", "28", "Nova Dheli");

@@ -27,10 +27,10 @@ body {
 }
 
 .foto {
-    width: 100%;
-    height: auto; /* Ajusta automaticamente a altura */
+    width: 240px;
+    height: 240px; /* Ajusta automaticamente a altura */
     object-fit: cover; /* Redimensiona a imagem para cobrir o elemento */
-    filter: blur(0.4);
+    filter: blur(0.8);
 }
 
 .nome {

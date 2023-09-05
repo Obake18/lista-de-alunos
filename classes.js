@@ -12,5 +12,10 @@ class Aluno{
         return `${this.primeiroNome} ${this.segundoNome}`;
 
 }
-
+    getIdade(){
+        let hj = new Date();
+        let idade = hj.getFullYear(); - this.idade
+        return idade;
+    
+    }
 }
