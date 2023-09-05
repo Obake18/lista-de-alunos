@@ -6,12 +6,11 @@ class Aluno{
         this.segundoNome = segundoNome
         this.idade = idade;
         this.cidade = cidade;
+    }
 
-        getNome(){
-            return `${this.primeiroNome} ${this.segundoNome}`;
-    
-    }
-    
-    }
+    getNome(){
+        return `${this.primeiroNome} ${this.segundoNome}`;
+
+}
 
 }
