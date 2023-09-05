@@ -14,7 +14,7 @@ class Aluno{
 }
     getIdade(){
         let hj = new Date();
-        let idade = hj.getFullYear(); - this.idade
+        let idade = hj.getFullYear(); - this.idade.getFullYear();
         return idade;
     
     }
