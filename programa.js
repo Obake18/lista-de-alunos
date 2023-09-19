@@ -9,6 +9,7 @@ let aluno8 = new Aluno('foto8.jpg', "H.", " Romeu Pinto", "17", "Rio Largo");
 let aluno9 = new Aluno('foto9.jpg', "Ahom", " Baku", "27", "Kyoto");
 let aluno10 = new Aluno('foto10.jpg', "Jalin", " Habei", "28", "Nova Dheli");
 
+
 let listaDeAluno = [];
 
 listaDeAluno.push(aluno1);
